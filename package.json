@@ -1,0 +1,27 @@
+{
+  "name": "com.av.essentialstate",
+  "version": "1.0.0",
+  "displayName": "AV Essential State",
+  "description": "Essential state management system for tracking object locations and operation states in Unity.",
+  "unity": "2021.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "state",
+    "management",
+    "location",
+    "operations"
+  ],
+  "license": "MIT",
+  "category": "Gameplay",
+  "dependencies": {},
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.EssentialState"
+  },
+  "licensesUrl": "https://github.com/IAFahim/AV.EssentialState/blob/main/LICENSE.md"
+}
