@@ -1,10 +1,9 @@
 using BovineLabs.Core.ObjectManagement;
 using UnityEngine;
 
-[HelpURL("https://github.com/IAFahim/AV.EssentialState")]
-
 namespace AV.EssentialState.Runtime
 {
+    [HelpURL("https://github.com/IAFahim/AV.EssentialState")]
     [CreateAssetMenu(
         fileName = nameof(LocationState),
         menuName = "AV/" + nameof(EssentialState) + "/" + nameof(LocationState) + "/New")
