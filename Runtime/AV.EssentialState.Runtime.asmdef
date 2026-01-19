@@ -1,13 +1,16 @@
-name: AV.EssentialState.Runtime
-rootNamespace: AV.EssentialState
-references:
-- GUID:f8242764ccad06a4ca6d427d36be92ab
-includePlatforms: []
-excludePlatforms: []
-allowUnsafeCode: false
-overrideReferences: false
-precompiledReferences: []
-autoReferenced: true
-defineConstraints: []
-versionDefines: []
-noEngineReferences: false
+{
+    "name": "AV.EssentialState.Runtime",
+    "rootNamespace": "AV.EssentialState",
+    "references": [
+        "GUID:f8242764ccad06a4ca6d427d36be92ab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
