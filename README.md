@@ -1,62 +1,38 @@
-# AV Essential State
+# AV.EssentialState
 
-Essential state management system for tracking object locations and operation states in Unity.
+![Header](documentation_header.svg)
 
-![Unity Version](https://img.shields.io/badge/unity-2021.3%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+[![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000.svg?style=flat-square&logo=unity)](https://unity.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
-## Features
+State management system for tracking object locations and operations using lightweight ID objects.
 
-- **Professional Quality**: Built following Unity Package Manager best practices
-- **Well Documented**: Comprehensive documentation and examples
-- **Production Ready**: Tested and optimized for production use
+## ✨ Features
 
-## Installation
+- **LocationState**: ScriptableObject-based ID for tracking where an object is (e.g., "InInventory", "OnGround").
+- **OperationState**: ID for tracking what an object is doing (e.g., "Idle", "Crafting").
+- **Identity System**: Implements `IUID` for integration with `BovineLabs.Core`.
 
-Install this package via Unity Package Manager by adding this line to your `Packages/manifest.json`:
+## 📦 Installation
 
-```json
-"com.av.essentialstate": "https://github.com/IAFahim/AV.EssentialState.git"
+Install via Unity Package Manager (git URL).
+
+### Dependencies
+- **BovineLabs.Core**: Required for ObjectManagement.
+
+## 🚀 Usage
+
+1. Create `LocationState` assets via `Create > AV > EssentialState > LocationState`.
+2. Assign them to components to track state.
+
+```csharp
+public class Item : MonoBehaviour
+{
+    public LocationState CurrentLocation;
+}
 ```
 
-Or install via Git URL in Unity Package Manager:
-1. Open Unity Package Manager (Window > Package Manager)
-2. Click the + icon > Add package from git URL
-3. Enter: `https://github.com/IAFahim/AV.EssentialState.git`
+## ⚠️ Status
 
-## Requirements
-
-- Unity 2021.3 or higher
-- Dependencies will be automatically resolved by Unity Package Manager
-
-## Usage
-
-Add components from the `AV Essential State` package to your GameObjects via the Component menu:
-`Component > AV > Essential State > [Component Name]`
-
-For detailed usage instructions, see the [Samples](Samples~) included with this package.
-
-## API Documentation
-
-For complete API reference and documentation, visit: https://github.com/IAFahim/AV.EssentialState
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
-## License
-
-MIT License - see [LICENSE.md](LICENSE.md) for details.
-
-## Author
-
-IAFahim - [https://github.com/IAFahim](https://github.com/IAFahim)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-For issues and questions, please use the [GitHub Issues](https://github.com/IAFahim/AV.EssentialState/issues) page.
+- 🧪 **Tests**: Missing.
+- 📘 **Samples**: None.
